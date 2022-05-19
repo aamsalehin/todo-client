@@ -15,7 +15,6 @@ function Home() {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
     const url = `https://afternoon-ridge-39909.herokuapp.com/todo`;
     fetch(url, {
       method: "POST",
