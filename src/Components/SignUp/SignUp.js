@@ -54,7 +54,7 @@ function SignUp() {
             <input
               className="form-control mb-3"
               type="email"
-              name="email"
+              name="emailid"
               id=""
               placeholder="email"
               onBlur={handleEmailInput}
@@ -64,7 +64,7 @@ function SignUp() {
               type="password"
               name="password"
               placeholder="password"
-              id=""
+              id="passwords"
               onBlur={handlePasswordInput}
             />
             <p className="text-danger small">{error?.message}</p>
