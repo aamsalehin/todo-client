@@ -45,7 +45,7 @@ function Login() {
             className="form-control mb-3"
             type="email"
             name="email"
-            id=""
+            id="email"
             placeholder="email"
           />
           <input
@@ -54,7 +54,7 @@ function Login() {
             type="password"
             name="password"
             placeholder="password"
-            id=""
+            id="password"
           />
           <p className="text-danger small">{error?.message}</p>
           <button className="btn btn-primary text-uppercase fw-bold">
