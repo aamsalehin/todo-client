@@ -1,0 +1,13 @@
+.task-ul .task-li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.linethrough-t {
+  text-decoration: line-through;
+  color: #767676;
+}
