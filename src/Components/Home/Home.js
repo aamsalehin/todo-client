@@ -68,6 +68,7 @@ function Home() {
       .then((res) => res.json())
       .then((result) => {
         setLoading(!loading);
+        alert("task completed");
       });
   };
 
